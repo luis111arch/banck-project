@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C8E6C9; 
+  font-family: Arial, sans-serif;
+}
+
+.login-site {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 60px 40px;
+  min-height: 400px;
+  background-color: #FFF8E7; 
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+}
+
+
+#username {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #e7edff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.input-senha {
+  position: relative;
+  width: 100%;
+}
+
+.input-senha input {
+  width: 100%;
+  padding: 10px;
+  padding-right: 45px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e7edff;
+  box-sizing: border-box;
+}
+
+.link-senha:hover{
+  color: rgb(184, 38, 38)
+}
+
+
+#btn-olho {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgb(47, 155, 47) ;
+  font-size: 18px;
+  height: 24px;
+  width: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#btn-olho:hover {
+  color: #000;
+}
+
+.cadastro-texto {
+  font-size: 14px;
+  margin-top: 10px;
+}
+.cadastro-texto a {
+  color: #007bff;
+  text-decoration: none;
+}
+.cadastro-texto a:hover {
+  text-decoration: underline;
+}
+
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  align-self: flex-start;
+  white-space: nowrap;
+}
+
+.checkbox input {
+  margin-right: 8px;
+}
+
+.login-site button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #7BAF9E;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-site button:hover {
+  background-color: #00b368;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #6777bd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro-site {
+  background-color: #ffffffee;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.cadastro-site h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.cadastro-site input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 16px;
+}
+
+.cadastro-site input:focus {
+  border-color: #4ea1d3;
+  box-shadow: 0 0 5px rgba(78, 161, 211, 0.5);
+  outline: none;
+}
+
+.cadastro-site button {
+  width: 100%;
+  padding: 12px;
+  background-color: #7BAF9E;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cadastro-site button:hover {
+  background-color: #358dc1;
+}
+
+.cadastro-site p {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.cadastro-site a {
+  color:#7BAF9E;
+  text-decoration: none;
+}
+
+.cadastro-site a:hover {
+  text-decoration: underline;
+}
