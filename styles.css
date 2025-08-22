@@ -1,0 +1,158 @@
+  body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #091349;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background: linear-gradient(to bottom, #42cbf1, #aebdc0);
+  }
+
+  .container {
+    background: #4280dd;
+    width: 1000px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(152 148 148 / 10%);
+    overflow: hidden;
+  }
+
+  /* Navbar */
+  nav {
+    background: #4446c2;
+    padding: 12px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .logo img {
+    width: 50px;
+    margin-right: 8px;
+  }
+
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li {
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 6px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  nav ul li:hover,
+  nav ul li.active {
+    background-color: #ffffff;
+  }
+
+  /* Main content */
+  .content {
+    padding: 40px 50px 50px;
+    color: #000000;
+    position: relative;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+  .content p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .btn-group {
+    display: inline-flex;
+    gap: 15px;
+    margin-bottom: 45px;
+  }
+
+  button {
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .btn-create {
+    background: white;
+    color: #394b2f;
+  }
+
+  .btn-create:hover {
+    background: #dde5cc;
+  }
+
+  .btn-access {
+    background: #2b3370;
+    color: white;
+  }
+
+  .btn-access:hover {
+    background: #1d1d1d;
+  }
+
+  /* Wave shape - white curved section */
+  .wave-shape {
+    position: relative;
+    background: white;
+    border-radius: 0 0 50% 100% / 15% 15% 85% 85%;
+    padding: 40px 0;
+  }
+
+  /* Icons and text section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    color: #37522d;
+  }
+
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 10px;
+    max-width: 120px;
+  }
+
+  /* Simple icons using emojis for demo */
+  .icon {
+    font-size: 30px;
+  }
+
+  /* Pagination dots */
+  .pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+  }
+
